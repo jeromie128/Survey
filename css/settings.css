@@ -1,0 +1,128 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: medium;
+
+     
+}
+
+.row {
+    background-image: linear-gradient(rgba(247, 221, 78, 0.164),rgba(33, 228, 202, 0.267)) ,url(../Image/employee-meeting.jpg);
+    background-size:cover;
+    height: 100vw;
+    width: 100vw;
+    color: white;
+}
+
+
+.form h1 {
+    font-weight: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    padding-top: 12px;
+    
+
+}
+
+.form p {
+    font-style: italic;
+    color:rgba(240, 255, 255, 0.315);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.form input {
+    background-color:cadetblue;
+
+}
+
+.labelss {
+    /* box-sizing: border-box; */
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.493);
+    position: absolute;
+    text-align: left;
+    width: 50vw;
+    left: 25%;
+    padding: 2vw;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+
+}
+
+.labelss input[type="text"], textarea, input[type="number"], input[type="email"]{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40%;
+    text-align:left;
+    border: 1px solid lightcyan;
+    border-radius: 5px;
+    padding: 15px;
+    /* width: 100vh; */
+    background-color:rgba(95, 158, 160, 0.11);
+    color: white;
+    outline: none;
+}
+
+
+
+.labelss textarea {
+    background-color:rgba(95, 158, 160, 0.575);
+    text-align: left;
+}
+
+
+
+.labelss select {
+    margin-top: 1%;
+    border-radius: 5px;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 1vw;
+    width: 100%;
+    height: 3.0vw;
+    outline: none;
+    background-color: rgba(95, 158, 160, 0.575);
+    color: white;
+}
+
+option {
+    text-align: left;
+}
+.checkboxx {
+    text-align: left;
+    color: white;
+}
+.checkboxlist{
+    display: flex;
+    color:white;
+    margin-top: 0.30vw;
+}
+
+.ending {
+    position: absolute;
+    width: 100%;
+    top: 170%;
+    color: lightcyan;
+    font: 1em sans-serif;
+}
+
+.ending p {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.btn {
+    width: 100%;
+    height: 70%;
+    color: white;
+    border-radius: 0.35vw;
+    border: .10vw solid lightcyan;
+    
+}
+
+
+
+
+
